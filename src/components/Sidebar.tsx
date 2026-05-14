@@ -15,7 +15,7 @@ import {
 import { topics } from '../data/pythonData';
 
 const Sidebar: React.FC = () => {
-  const iconMap: Record<string, any> = {
+  const iconMap: Record<string, React.ElementType> = {
     basics: Terminal,
     control_flow: Layers,
     functions: Settings,

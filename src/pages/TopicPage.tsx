@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { CheckCircle2, ChevronDown, ChevronUp, Info, Lightbulb, AlertTriangle } from 'lucide-react';
-import { Topic, Question } from '../types';
+import { Topic } from '../types';
 
 interface TopicPageProps {
   topic: Topic;
